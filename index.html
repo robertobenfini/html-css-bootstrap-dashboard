@@ -15,7 +15,7 @@
         <header class="w-100">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 h-50px">
+                    <div class="col-12">
                         <div class="container">
                             <div class="row">
                                 <div class="col-2 h-100">
@@ -24,12 +24,16 @@
                                     </div>
                                 </div>
                                 <div class="col-8">
-                                    <div class="content">
-                                        <input type="search" placeholder="Prova a cercare: Lezioni di Laravel" class="w-100 margin-input">
+                                    <div class="content margin-input">
+                                        <div class="form-group has-search">
+                                            <span class="fa fa-search form-control-feedback"></span>
+                                            <input type="text" class="form-control background-input" placeholder="Prova a cercare: Lezioni di Laravel">
+                                          </div>
                                     </div>
                                 </div>
                                 <div class="col-2">
-                                    <div class="content">
+                                    <div class="content text-center margin-bell">
+                                        <i class="fa-solid fa-bell" style="color: rgb(255, 143, 0);"></i>
                                     </div>
                                 </div>
                             </div>
@@ -40,17 +44,19 @@
         </header>
         <!--fine header-->
 
+        <!--sidebar-->
+        <section class="section-sidebar d-flex">
+            <div class="container-fluid background-green">
+                <div class="row flex-column justify-content-between h-100 ccc">
+                    <div class="col-12 background-red h-100px"></div>
+                    <div class="col-12 background-red h-100px"></div>
+                </div>
+            </div>
+        </section>
+        <!--fine sidebar-->
+
         <!--main-->
         <main class="d-flex">
-            <!--sidebar-->
-            <section class="section-sidebar">
-                <div class="container-fluid background-green">
-                    <div class="row flex-column justify-content-between h-100 ccc">
-                        <div class="col-12 background-red h-100px"></div>
-                        <div class="col-12 background-red h-100px"></div>
-                    </div>
-                </div>
-            </section>
             <!--main centrale-->
             <section class="main-centrale background-blue">
                 <div class="container-fluid">

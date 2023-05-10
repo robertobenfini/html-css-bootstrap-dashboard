@@ -74,7 +74,31 @@ header{
 }
 
 .margin-input{
-    margin-top: 12px;
+    margin-top: 7px;
+}
+
+.margin-bell{
+    margin-top: 13px;
+}
+
+.background-input{
+    background-color: lightgray;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
 }
 /*fine header*/
 
@@ -88,6 +112,7 @@ main{
     height: calc(100vh - 50px);
     display: flex;
     position: fixed;
+    margin-top: 50px;
 }
 /*fine sidebar*/
 

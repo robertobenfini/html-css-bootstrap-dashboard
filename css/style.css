@@ -63,6 +63,10 @@ header{
     position: fixed;
     z-index: 1;
 }
+
+.img-logo{
+    width: 50px;
+}
 /*fine header*/
 
 /*main*/
@@ -73,12 +77,8 @@ header{
 .position-sidebar{
     position: fixed;
 }
-
-.col{
-    width: 150px;
-}
 /*fine sidebar*/
-.padding-left{
-    padding-left: 150px;
-}
+
+/*main centrale*/
+
 /*fine main*/

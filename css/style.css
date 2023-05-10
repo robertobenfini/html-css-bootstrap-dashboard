@@ -5,10 +5,80 @@
 }
 
 /*layout*/
+.background-red{
+    background-color: red;
+}
+
+.background-green{
+    background-color: green;
+}
+
+.background-yellow{
+    background-color: yellow;
+}
+
+.background-blue{
+    background-color: blue;
+}
+
+.background-brown{
+    background-color: brown;
+}
+
+.background-violet{
+    background-color: violet;
+}
+
+.background-black{
+    background-color: black;
+}
+
+.h-50px{
+    height: 50px;
+}
+
+.h-100px{
+    height: 100px;
+}
+
+.h-500px{
+    height: 500px;
+}
+
+.h-100vh{
+    height: calc(100vh - 50px);
+}
+
+.h-200px{
+    height: 200px;
+}
+
+.h-300px{
+    height: 300px;
+}
 /*fine layout*/
 
 /*header*/
+header{
+    position: fixed;
+    z-index: 1;
+}
 /*fine header*/
 
 /*main*/
+.padding-top{
+    padding-top: 50px;
+}
+/*sidebar*/
+.position-sidebar{
+    position: fixed;
+}
+
+.col{
+    width: 150px;
+}
+/*fine sidebar*/
+.padding-left{
+    padding-left: 150px;
+}
 /*fine main*/

@@ -110,6 +110,17 @@ main{
     position: fixed;
     margin-top: 50px;
 }
+
+.background-sidebar{
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051E34;
+}
+
+.ul-sidebar{
+    list-style-type: none;
+    color: white;
+    padding: 0;
+}
 /*fine sidebar*/
 
 /*main centrale*/
@@ -124,11 +135,11 @@ main{
 /*tablet*/
 @media screen and (min-width: 991px) {
     .section-sidebar{
-        width: 200px;
+        width: 170px;
     }
 
     .main-centrale{
-        width: calc(100% - 200px);
-        margin-left: 200px;
+        width: calc(100% - 170px);
+        margin-left: 170px;
     }
 }

@@ -65,6 +65,8 @@
 /*header*/
 header{
     position: fixed;
+    top: 0;
+    left: 0;
     z-index: 1;
     background-color: white;
 }
@@ -102,17 +104,12 @@ header{
 }
 /*fine header*/
 
-/*main*/
-main{
-    padding-top: 50px;
-}
 /*sidebar*/
 .section-sidebar{
     width: 60px;
     height: calc(100vh - 50px);
-    display: flex;
     position: fixed;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .background-sidebar{
@@ -127,15 +124,24 @@ main{
 }
 /*fine sidebar*/
 
+/*main*/
 /*main centrale*/
+main{
+    padding-top: 60px;
+}
+
 .main-centrale{
     width: calc(100% - 60px);
-    height: calc(100vh - 50px);
+    height: calc(100vh - 60px);
     margin-left: 60px;
 }
 /*jumbotron*/
 .background-jumbo{
     background-color: #1b72e7;
+}
+
+.btn-primary{
+    border: 1px solid white;
 }
 /*fine main*/
 

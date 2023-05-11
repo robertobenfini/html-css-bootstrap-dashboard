@@ -69,6 +69,7 @@ header{
     left: 0;
     z-index: 1;
     background-color: white;
+    height: 60px;
 }
 
 .margin-input{
@@ -125,6 +126,15 @@ header{
 /*fine sidebar*/
 
 /*main*/
+/*jumbotron*/
+.background-jumbo{
+    background-color: #1b72e7;
+}
+
+.btn-primary{
+    border: 1px solid white;
+}
+
 /*main centrale*/
 main{
     padding-top: 60px;
@@ -135,14 +145,42 @@ main{
     height: calc(100vh - 60px);
     margin-left: 60px;
 }
-/*jumbotron*/
-.background-jumbo{
-    background-color: #1b72e7;
+
+/*tabella*/
+.class__img img{
+    width: 20px;
 }
 
-.btn-primary{
-    border: 1px solid white;
+.dashboard .card-header {
+    font-weight: 700;
+    font-size: 1.5rem;
+} 
+
+.card-body .list-group-item .form-check-label {
+    font-size: 15px;
+    cursor: pointer;
 }
+
+.card-header {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.recap_title {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.number-student {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#accordionFlushExample{
+    border: 1px solid lightgrey;
+    border-top: none;
+}
+
 /*fine main*/
 
 /*media query*/

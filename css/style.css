@@ -84,6 +84,7 @@ header{
 /*main centrale*/
 main{
     padding-top: 60px;
+    overflow-x: hidden;
 }
 
 .main-centrale{
